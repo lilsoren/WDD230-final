@@ -1,0 +1,33 @@
+@media only screen and (min-width:660px){
+  nav ul#navigation{
+    display: flex;
+    justify-content: space-around;
+
+    }
+  header{
+    flex-direction: column;
+  }
+  .top-header{
+    display: flex;
+    /* flex-direction: row; */
+    /* justify-items: end; */
+    align-items: center;
+    justify-content: space-around;
+  }
+  .top-header img{
+    flex-grow: 1;
+    max-width: 200px;
+  }
+  .top-header nav{
+    flex-grow: 4;
+  }
+
+   /*----------------*/
+    /* Join Page */
+    /*----------------*/
+    .form-box label{
+      display: block;
+      text-align: left;
+  }
+
+}

@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Temple Inn & Suites Home page</title>
+
+    <!-- css links -->
+    <link rel="stylesheet" href="css/small.css">
+    <link rel="stylesheet" href="css/medium.css">
+    <link rel="stylesheet" href="css/large.css">
+    <link rel="stylesheet" href="css/normalize.css">
+
+    <!-- link to icon library -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+
+<body>
+    <header class="flex-nav">
+        <div class="header-flex">
+            <div class="top-header">
+                <img src="images/temple-logo copy.jpg" alt="Logo Image" width="200">
+                <nav>
+                    <!--navigation links-->
+                    <ul id="navigation">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="temples.html">Tempes</a></li>
+                        <li><a href="book.html">Book Now</a></li>
+                        <li><a href="services.html">Services</a></li>
+
+                    </ul>
+                </nav>
+                <div class="social">
+
+
+                    <nav>
+                        <!--navigation links-->
+                        <button id="hamburger"><span>&#9776;</span><span>X</span></button>
+                    </nav>
+                </div>
+            </div>
+
+            <!-- current date -->
+            <div class="date"></div>
+            <div class="meeting-notice"></div>
+
+
+        </div>
+    </header>
+
+    <main id="services-main">
+        <section id="bookmarks">
+            <h3><a href="#reception">View Wedding Reception Details</a></h3>
+            <h3><a href="#missionaries">View Full-Time Temple Missionary Details</a></h3>
+        </section>
+
+        <section>
+            <h3>Amenities</h3>
+            <p>Temple Inn & Suites comes with many free amenities to make your stay better than ever. Before diving into
+                our list, we want to make sure that the basics are covered. Every restroom in our hotel comes with basic
+                personal care items such as shampoo, conditioner, lotion, soap, toothpaste, disposable combs, blow
+                dryer, shaving cream, disposable razors, and bathrobes. In each hotel room there will additionally be an
+                ironing board, steamer, set of scriptures, and a hot chocolate maker. Each guest is granted access to
+                free parking, free breakfast, free internet access, access to the fitness center, and access to the
+                swimming pool. Guests are invited to participate to attend activities that occur throughout the week
+                such as musical performances, karaoke, dances, and magic shows. Guests are also invited to wonder the
+                gardens and enjoy the beauty of nature if they are looking for a relaxing, spiritual space.</p>
+            <div>
+                <img src="images/toiletries.webp" alt="toiletries" height="250">
+                <img src="images/lobby.webp" alt="lobby" height="250">
+                <img src="images/egg.webp" alt="breakfast" height="250">
+                <img src="images/fitness.webp" alt="fitness center" height="250">
+                <img src="images/gardens.webp" alt="gardens" height="250">
+                <img src="images/pool.webp" alt="pool" height="250">
+            </div>
+        </section>
+        <section>
+            <h3 id="reception">Reception Details</h3>
+            <p>If you and your spouse are looking for the perfect wedding reception venue, you may stop looking. Our
+                hotels provide a convenient and stress-free opportunity to seamlessly plan your special day. The first
+                thing about a reception is the food. Our hotels give you the option to book a catering crew through our
+                kitchen staff or to bring in outside catering/food of your choosing. In addition, your guests can easily
+                book rooms with us, so there is no need to worry about your guest getting lost or being late. Event
+                coordinators are available upon request to plan, set up, and help in any way that they can. We offer the
+                option of an inside or outside reception as well as access to tables, chairs, and a full set of speakers
+                for music and dancing. </p>
+            <img src="images/cake.webp" alt="cake" height="250">
+            <img src="images/catering.webp" alt="catering" height="250">
+            <img src="images/flowers.webp" alt="flowers" height="250">
+            <img src="images/tables.webp" alt="tables" height="250">
+            <img src="images/rings.webp" alt="rings" height="250">
+            <img src="images/couple.webp" alt="couple" height="250">
+        </section>
+        <section>
+            <h3 id="missionaries">Full-time Temple Missionaries</h3>
+            <p>Full-time temple missionaries are given the opportunity to live at our hotel for discounted prices. The
+                top floor is designated to full-time temple missionary suites that include a deluxe bathroom, living
+                area with a couch, a kitchenette and access to a washer and dryer to do laundry. The full-time
+                missionary suites are meant to be a place where missionaries can study scriptures, rest, and do the
+                Lord’s work. Additional amenities are provided such as quiet rooms where they can reside as a place of
+                peace. Images of the full-time temple missionary suites are provided below. </p>
+            <img src="images/bed.webp" alt="bed" height="250">
+            <img src="images/kitchen.webp" alt="kitchen" height="250">
+            <img src="images/book.webp" alt="book of mormon" height="250">
+            <img src="images/bathroom.webp" alt="bathroom" height="250">
+            <img src="images/living.webp" alt="living room" height="250">
+            <img src="images/laundry.webp" alt="washer and dryer" height="250">
+
+
+            <div id="div-form">
+                <form name="my-form" method="get">
+                    <section id="chat">
+                        <h3>Chat With Us</h3>
+                        <div class="form-box">
+                            <label for="first">Name *</label>
+                            <input type="text" id="first" name="first" placeholder="First Name" required>
+                        </div>
+                        <div class="form-box">
+                            <label for="email">Email *</label>
+                            <input type="email" id="email" name="email" placeholder="user@gmail.com" required>
+                        </div>
+                            <div class="form-box">
+                                <label for="comments">Questions</label>
+                                <textarea name="description" id="description" cols="30" rows="10"
+                                    placeholder="Type here..."></textarea>
+                                <section class="form-box">
+                                    <input type="hidden" id="datetime" name="datetime" value="0">
+                                </section>
+                                <!--hidden field that contains the current date and time that the form was loaded by the user-->
+                            </div>
+                            <div class="form-box">
+                                <button id="btnSend">Send</button>
+                            </div>
+                    </section>
+
+                </form>
+            </div>
+        </section>
+
+
+
+
+
+
+
+
+    </main>
+
+    <footer>
+        <!-- Add font awesome icons -->
+        <a href="#" class="fa fa-facebook"></a>
+        <a href="#" class="fa fa-twitter"></a>
+        <p>templehotel@gmail.com</p>
+
+        <p>&copy; <span id='date'></span> | Temple Inn & Suites | Lily Sorensen | WDD 230 Final Project</p>
+    </footer>
+    <script src="js/form.js"></script>
+
+</body>
+
+</html>

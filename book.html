@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Temple Inn & Suites Home page</title>
+
+    <!-- css links -->
+    <link rel="stylesheet" href="css/small.css">
+    <link rel="stylesheet" href="css/medium.css">
+    <link rel="stylesheet" href="css/large.css">
+    <link rel="stylesheet" href="css/normalize.css">
+
+    <!-- link to icon library -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+
+<body>
+    <header class="flex-nav">
+        <div class="header-flex">
+            <div class="top-header">
+                <img src="images/temple-logo copy.jpg" alt="Logo Image" width="200">
+                <nav>
+                    <!--navigation links-->
+                    <ul id="navigation">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="temples.html">Tempes</a></li>
+                        <li><a href="book.html">Book Now</a></li>
+                        <li><a href="services.html">Services</a></li>
+    
+                    </ul>
+                </nav>
+                <div class="social">
+                    
+
+                    <nav>
+                        <!--navigation links-->
+                        <button id="hamburger"><span>&#9776;</span><span>X</span></button>
+                    </nav>
+                </div>
+            </div>
+
+            <!-- current date -->
+            <div class="date"></div>
+            <div class="meeting-notice"></div>
+
+            
+        </div>
+    </header>
+
+    <main id="main-form">
+        <div id="div-form">
+            <form name="my-form" method="get">
+                <section class="form-box">
+                    <label for="first">First *</label>
+                    <input type="text" id="first" name="first" placeholder="First Name" required>
+                </section>
+                <section class="form-box">
+                    <label for="last">Last *</label>
+                    <input type="text" id="last" name="last" placeholder="Last Name" required>
+                </section>
+                <section class="form-box">
+                    <label for="email">Email *</label>
+                    <input type="email" id="email" name="email" placeholder="user@gmail.com" required>
+                </section>
+                <section class="form-box">
+                    <label for="phone">Phone</label>
+                    <input type="tel" name="phone" id="phone" placeholder="xxx-xxx-xxxx">
+                </section>
+                <section class="form-box">
+                    <label for="location">Temple Location *</label>
+                    <input type="text" id="location" name="location" placeholder="Temple Location" required>
+                </section>
+                <section class="form-box">
+                    <label for="start">Start Date *</label>
+                    <input type="text" id="start" name="start" placeholder="start mm-dd-yyyy" pattern="[- 09]{10,}" required>
+                </section>
+                <section class="form-box">
+                    <label for="end">End date *</label>
+                    <input type="text" id="end" name="end" placeholder="end mm-dd-yyyy" pattern="[- 09]{10,}" required>
+                </section>
+                <section class="form-box">
+                    <label for="rooms">Number of Rooms *</label>
+                    <input type="text" id="rooms" name="rooms" placeholder="Number of Rooms" pattern="[09]{1,}" required>
+                    <!--only accepts alpha charachers, hyphens, and spaces, minimun of seven characters using regular expression pattern-->
+                </section>
+                <section class="form-box">
+                    <label for="type">Type of rooms</label>
+                    <select name="type" id="type">
+                        <option value="select">-Room Type-</option>
+                        <option value="ot">One bed (twin)</option>
+                        <option value="of">One bed (full)</option>
+                        <option value="tt">Two bed (twin)</option>
+                        <option value="tf">Two bed (full)</option>
+                        <option value="s">Suite (king)</option>
+                        <option value="sd">Suite delux (king, kitchenette)</option>
+                    </select>
+                </section>
+                <section class="form-box">
+                    <label for="busines">Home state or country</label>
+                    <input type="text" id="home" name="home" placeholder="Country or State" pattern="[-. A-Za-z]{3,}">
+                </section>
+                <section class="form-box">
+                    <label for="comments">Accommodations or comments</label>
+                    <textarea name="description" id="description" cols="30" rows="10"
+                        placeholder="Type here..."></textarea>
+                    <section class="form-box">
+                        <input type="hidden" id="datetime" name="datetime" value="0">
+                    </section>
+                    <!--hidden field that contains the current date and time that the form was loaded by the user-->
+                </section>
+                <section class="form-box">
+                    <button id="btnSend">Send</button>
+                </section>
+            </form>
+        </div>
+    </main>
+
+    <footer>
+        <!-- Add font awesome icons -->
+        <p><a href="#" class="fa fa-facebook"></a></p>
+        <p><a href="#" class="fa fa-twitter"></a></p>
+        <p>templehotel@gmail.com</p>
+        <p></p>
+        <p>&copy; <span id='date'></span> | Temple Inn & Suites | Lily Sorensen | WDD 230 Final Project</p>
+    </footer>
+    <script src="js/form.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Temple Inn & Suites Home page</title>
+
+    <!-- css links -->
+    <link rel="stylesheet" href="css/small.css">
+    <link rel="stylesheet" href="css/medium.css">
+    <link rel="stylesheet" href="css/large.css">
+    <link rel="stylesheet" href="css/normalize.css">
+
+    <!-- link to icon library -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+
+<body>
+    <header class="flex-nav">
+        <div class="header-flex">
+            <div class="top-header">
+                <img src="images/temple-logo copy.jpg" alt="Logo Image" width="200">
+                <nav>
+                    <!--navigation links-->
+                    <ul id="navigation">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="temples.html">Temples</a></li>
+                        <li><a href="book.html">Book Now</a></li>
+                        <li><a href="services.html">Services</a></li>
+    
+                    </ul>
+                </nav>
+                <div class="social">
+                    
+
+                    <nav>
+                        <!--navigation links-->
+                        <button id="hamburger"><span>&#9776;</span><span>X</span></button>
+                    </nav>
+                </div>
+            </div>
+
+            <!-- current date -->
+            <div class="date"></div>
+            <div class="meeting-notice"></div>
+
+            
+        </div>
+    </header>
+
+    <main id="home-main">
+        <section id="temple-carousel">
+            <img src="https://picsum.photos/200" alt="">
+            <img src="https://picsum.photos/200" alt="">
+            <img src="https://picsum.photos/200" alt="">
+            <img src="https://picsum.photos/200" alt="">
+        </section>
+
+        <section id="weather-alert">
+
+            <p><span id="alert-message"></span></p>
+            <button id="close-weather-alert"><span>X</span></button>
+        </section>
+
+        <section id="temple-description">
+            <img id="temp-pic" src="images/dc_temple.webp" alt="DC Temple" width="300">
+            <p id="temp-para">The open house, youth devotional and rededication of the Washington D.C. Temple of The Church of Jesus Christ of Latter-day Saints (originally scheduled for 2020 but delayed because of COVID-19) has been rescheduled for 2022. The news was made on Tuesday, July 20, 2021, in a letter from the First Presidency and shared during a media at the Washington D.C. Temple Visitors’ Center. A media day for the renovated temple will take place on April 18, 2022, followed by private tours for invited guests from April 19 to April 27. A public open house will then begin on April 28 and continue daily (except for Sundays) into the summer. Open house ticket information is available at dctemple.org  The youth devotional will be held on August 13, followed by the temple rededication on August 14 in three sessions.</p>
+            <section id="weather">
+                <!-- <h3>Weather</h3> -->
+                <div>
+                    <h3>Today</h3>
+                    <p><span id="current-temp"></span> &deg;F</p>
+                    <p>Humidity: <span id="humidity"></span></p>
+                    <p><span id="feels-like"></span></p>
+                    <figure>
+                        <img src="" alt="" id="weather-icon" />
+                        <figcaption id="cap"></figcaption>
+                    </figure>
+                </div>
+                <div>
+                    <h3>Tomorrow</h3>
+                    <p><span id="day1-temp"></span> &deg;F</p>
+                    <p>Humidity: <span id="humidity1"></span></p>
+                    <figure>
+                        <img src="" alt="" id="weather-icon1" />
+                        <figcaption id="cap1"></figcaption>
+                    </figure>
+                </div>
+                <div>
+                    <h3>Next Day</h3>
+                    <p><span id="day2-temp"></span> &deg;F</p>
+                    <p>Humidity: <span id="humidity2"></span></p>
+                    <figure>
+                        <img src="" alt="" id="weather-icon2" />
+                        <figcaption id="cap2"></figcaption>
+                    </figure>
+                </div>
+            </section>
+        </section>
+
+        <section id="book-now">
+            <img src="images/brigham-city.webp" alt="Brigham City Temple">
+            <a href="book.html">Book Now</a>
+        </section>
+    </main>
+
+    <footer>
+        <!-- Add font awesome icons -->
+        <a href="#" class="fa fa-facebook"></a>
+        <a href="#" class="fa fa-twitter"></a>
+        <p>templehotel@gmail.com</p>
+        
+        <p>&copy; <span id='date'></span> | Temple Inn & Suites | Lily Sorensen | WDD 230 Final Project</p>
+    </footer>
+    <script src="js/navigation.js"></script>
+    <script src="js/weather.js"></script>
+
+</body>
+
+</html>

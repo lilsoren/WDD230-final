@@ -1,0 +1,64 @@
+{
+    "cards": [
+        {
+          "id": "washington",
+          "imageurl": "images/dc_temple.webp",
+          "heart": "images/heart-icon-blank.png",
+          "red": "images/heart-icon-red.png",
+          "temple": "Washington D.C.",
+          "address": "9900 Stoneybrook Dr Kensington MD 20895-3199 United States",
+          "phone": "301-588-0650",
+          "email": "wahi-off@churchofjesuschrist.org",
+          "services": "Clothing rental available",
+          "history": "Dedicated 9 November 1974",
+          "ordinance": "Currently closed",
+          "session": "Currently closed",
+          "closure": "Under renovation until August 30, 2022"
+        },
+        {
+          "id": "phili",
+          "imageurl": "images/philadelphia.webp",
+          "heart": "images/heart-icon-blank.png",
+          "red": "images/heart-icon-red.png",
+          "temple": "Philadelphia Pennsylvania",
+          "address": "1739 Vine St Philadelphia PA 19103 United States",
+          "phone": "215-398-3040",
+          "email": "phil-off@churchofjesuschrist.org",
+          "services": "Clothing rental available",
+          "history": "Dedicated 18 September 2016",
+          "ordinance": "Wed-Sat 9:30am -7:30pm",
+          "session": "Wed-Sat 9:30am -7:30pm",
+          "closure": "Monday, 19 September 2022 - Monday, 10 October 2022"
+        },
+        {
+          "id": "ghana",
+          "imageurl": "images/ghana.webp",
+          "heart": "images/heart-icon-blank.png",
+          "red": "images/heart-icon-red.png",
+          "temple": "Ghana Accra",
+          "address": "Accra Ghana Temple Complex 57 Independence Ave, Ridge P.M B. CT 209, Cantonments, Accra, Ghana",
+          "phone": "(233) 302-650-123",
+          "email": "ghan-off@churchofjesuschrist.org",
+          "services": "Patron housing available",
+          "history": "Dedicated 11 January 2004",
+          "ordinance": "Tue-Sat 8:00am-11:00am",
+          "session": "Tue-Sat 7:00am-12:30pm",
+          "closure": "Tuesday, 13 September 2022 - Monday, 26 September 2022"
+        },
+        {
+          "id": "portland",
+          "imageurl": "images/Portland.webp",
+          "heart": "images/heart-icon-blank.png",
+          "red": "images/heart-icon-red.png",
+          "temple": "Portland Oregon",
+          "address": "13600 Kruse Oaks Blvd Lake Oswego OR 97035-8602 United States",
+          "phone": "503-639-7066",
+          "email": "oreg-off@churchofjesuschrist.org",
+          "services": "Clothing rental available",
+          "history": "Dedicated 19 August 1989",
+          "ordinance": "Tue-Sat 8:00am-7:00pm",
+          "session": "Tue-Sat 8:00am-7:00pm",
+          "closure": "Monday, 18 July 2022 - Monday, 15 August 2022"
+        } 
+    ]
+}

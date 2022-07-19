@@ -1,0 +1,58 @@
+@media only screen and (min-width:1200px){
+    #temple-description section{    
+        grid-column: 2/4;
+        grid-row: 2/3;
+    }
+    #temp-pic{ 
+        grid-column: 1/2;
+        grid-row: 1/3;
+        min-width: 400px;
+    }
+    #book-now img{
+        width: auto;
+        /* min-height: 770px; */
+        object-fit: cover;
+    }
+    main{
+        margin-left: 250px;
+        margin-right: 250px;
+    }
+    header{
+        margin-left: 250px;
+        margin-right: 250px;
+    }
+
+    /*----------------*/
+    /* Join Page */
+    /*----------------*/
+    #main-form{
+        display: flex;
+    }
+    .form-box{
+        flex-direction: row;
+    }
+    .form-box label{
+        flex-basis: 9rem;
+        flex-grow: 0;
+        flex-shrink: 0;
+    }
+    .form-box button{
+        margin-left: 9rem;
+    }
+    .form-box input, 
+    .form-box select, 
+    .form-box textarea{
+        flex-basis: 0;
+        flex-grow: 1;
+        flex-shrink: 1;
+    } 
+    form{
+        width: 100%;
+    }  
+    #div-form{
+        grid-column: 1/4;
+        z-index: 0;
+    }
+   
+
+}
